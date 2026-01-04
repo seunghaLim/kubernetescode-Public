@@ -6,7 +6,7 @@ node {
   }
 
   stage('Build image') {
-    app = docker.build("ramdomdockerid/test")
+    app = docker.build("limseungha/test")
   }
 
   stage('Test image') {
